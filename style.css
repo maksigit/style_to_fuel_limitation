@@ -1,3 +1,17 @@
 body {
     overflow: hidden;
 }
+
+div.content .form-container {
+    background: unset;
+}
+
+#auth-form input, #auth-form input[type="submit"] {
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.content .permissions-container {
+    display: none;
+}
